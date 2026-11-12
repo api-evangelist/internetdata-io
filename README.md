@@ -1,4 +1,4 @@
-# internetdata-io
+# InternetData
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-internetdata-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://internetdata.io/
+InternetData provides IP intelligence databases covering geolocation, anonymity, ownership, network and service data for IP addresses, AS numbers, and domain names. Their licensed datasets include VPN, proxy, CDN, and carrier IP information, serving large vendors and security teams. The platform offers daily updates, multiple data formats, and a developer portal with API documentation.
+
+**Areas:** Company · IP Intelligence · Data Licensing · Geolocation · Network Security
+
+## InternetData on APIs.io
+
+Everything profiled for InternetData is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/internetdata-io/](https://apis.io/providers/internetdata-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [InternetData Account API](https://apis.io/apis/internetdata-io/internetdata-io-account-api/) — Who the credential belongs to, and what it may do.
+- [InternetData API keys API](https://apis.io/apis/internetdata-io/internetdata-io-api-keys-api/) — Creating, listing and rotating credentials.
+- [InternetData Authorization API](https://apis.io/apis/internetdata-io/internetdata-io-authorization-api/) — Obtaining and revoking tokens.
+- [InternetData Database API](https://apis.io/apis/internetdata-io/internetdata-io-database-api/) — Download IP database files and fetch their checksums.
+- [InternetData Database v2 API](https://apis.io/apis/internetdata-io/internetdata-io-database-v2-api/) — The current database API. Authenticate with an API key carrying the `db.download` scope, presented any of three ways: `Authorization: Bearer <key>`,…
+- [InternetData Organization API](https://apis.io/apis/internetdata-io/internetdata-io-organization-api/) — The organization it is scoped to.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Internetdata Io Webhooks](https://apis.io/asyncapis/internetdata-io/internetdata-io-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [InternetData Agentic Access](https://apis.io/agentic-access/internetdata-io/internetdata-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Database](https://apis.io/schemas/internetdata-io/internetdata-io-database/)
+- [DatabaseMetadata](https://apis.io/schemas/internetdata-io/internetdata-io-database-metadata/)
+- [Download](https://apis.io/schemas/internetdata-io/internetdata-io-download/)
+- [OauthMetadata](https://apis.io/schemas/internetdata-io/internetdata-io-oauth-metadata/)
+- [TokenRequest](https://apis.io/schemas/internetdata-io/internetdata-io-token-request/)
+- [TokenResponse](https://apis.io/schemas/internetdata-io/internetdata-io-token-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Internetdata Io Context](https://apis.io/jsonld/internetdata-io/internetdata-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [InternetData API Rules](https://apis.io/rules/internetdata-io/internetdata-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [InternetData Authentication](https://apis.io/security/internetdata-io/internetdata-io-authentication/)
+- [InternetData Domain Security](https://apis.io/security/internetdata-io/internetdata-io-domain-security/)
+- [InternetData Vulnerability Disclosure](https://apis.io/security/internetdata-io/internetdata-io-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://internetdata.io/)
+- [Documentation](https://docs.internetdata.io/)
+- [API reference](https://docs.internetdata.io/api)
+- [Pricing](https://internetdata.io/pricing)
+- [Blog](https://internetdata.io/blog)
+- [Security](https://internetdata.io/scan)
+- [Terms of service](https://internetdata.io/terms)
+- [Privacy policy](https://internetdata.io/privacy)
+- [GitHub](https://github.com/internetdata)
+
+## API Evangelist rating
+
+**Kin Score 56.1** — strong · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 66.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 44.7 |
+
+**Agent readiness 54.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/internetdata-io/](https://apis.io/providers/internetdata-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for InternetData: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/internetdata-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
